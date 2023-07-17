@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/CRUD/delete.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game_racer.css') }}">
+</head>
+
+<body>
+    <form action="" method="post" class="delete-form">
+        <h3 class="form-heading">Xác nhận xóa tên khỏi danh sách</h3>
+        <input type="submit" name="agree" value="YES" class="delete-button">
+        <a href="/" class="cancel-link">Cancel</a>
+    </form>
+    <button class="button" onclick="window.location.href='/'">
+        <div class="btn-circle"></div>
+        <div class="btn-circle"></div>
+        <p class="btn-text">Trang chủ</p>
+      </button>
+
+</body>
+</html>

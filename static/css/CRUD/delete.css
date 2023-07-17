@@ -1,0 +1,39 @@
+.delete-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .form-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .delete-button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .cancel-link:hover {
+    text-decoration: underline;
+  }
+  
