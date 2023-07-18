@@ -1,5 +1,5 @@
 from library import *
-from main import app
+from app import app
 @app.before_first_request
 def create_table():
     db.create_all()
